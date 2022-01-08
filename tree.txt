@@ -1,0 +1,15 @@
+IMAGE_RECONGNITION
+|── README.md
+|── archive.zip
+|── codes
+│   |── cnn_model.ipynb
+│   |── create_datasets.py
+│   |── video.py
+|── image_datasets
+│   |── Meta
+│   |── Meta.csv
+│   |── Test
+│   |── Test.csv
+│   |── Train
+│   |── Train.csv
+|── package.json
