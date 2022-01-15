@@ -1,0 +1,19 @@
+{
+    "train_dir": "image_datasets/Train_use",
+    "test_dir": "image_datasets/Test_use",
+    "meta_dir": "image_datasets/Meta",
+    "backup_dir": "model",
+    "learning_rate": 0.001,
+    "epochs": 30,
+    "batch_size": 20,
+    "image_size": 32,
+    "conv2d_type": "2,2",
+    "pool_size": "2",
+    "dropout_after_pooling": "True",
+    "dropout_after_pooling_percentage": "0.5",
+    "dropout_after_flatten": "True",
+    "dropout_after_flatten_percentage": "0.25",
+    "dense_count_list": "514",
+    "dropout_after_dense": "True",
+    "dropout_after_dense_percentage": "0.5"
+}

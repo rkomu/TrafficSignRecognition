@@ -1,0 +1,9 @@
+開発時に出たエラーの対処法一覧
+
+TypeError: __array__() takes 1 positional argument but 2 were given (Image classification Keras)
+https://stackoverflow.com/questions/68238057/typeerror-array-takes-1-positional-argument-but-2-were-given-image-class
+
+Tensorflow: None of the MLIR optimization passes are enabled (registered 1)
+https://stackoverflow.com/questions/63886762/tensorflow-none-of-the-mlir-optimization-passes-are-enabled-registered-1
+
+
