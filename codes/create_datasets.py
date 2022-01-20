@@ -59,7 +59,7 @@ def main(test_num, train_num, class_list):
                 ns.append(n)
                 img_file_name = possible_img[n][0].replace("Test/", "")
                 class_id = possible_img[n][1]
-                class_count[int(possible_img[n][1]) - 1] += 1
+                class_count[int(possible_img[n][1])] += 1
                 # print(img_file_name)
                 shutil.copy(
                     f"{parent_path}/image_datasets/{possible_img[n][0]}", f"{TEST_DIR}/{class_id}/{img_file_name}")
@@ -70,7 +70,7 @@ def main(test_num, train_num, class_list):
                 ns.append(n)
                 img_file_name = possible_img[n][0].replace("Test/", "")
                 class_id = possible_img[n][1]
-                class_count[int(possible_img[n][1]) - 1] += 1
+                class_count[int(possible_img[n][1])] += 1
                 # print(img_file_name)
                 shutil.copy(
                     f"{parent_path}/image_datasets/{possible_img[n][0]}", f"{TEST_DIR}/{class_id}/{img_file_name}")
@@ -102,7 +102,7 @@ def main(test_num, train_num, class_list):
                 if not n in ns:
                     ns.append(n)
                     img_file_name = possible_img[n][0].replace("Train/", "")
-                    class_count[int(possible_img[n][1]) - 1] += 1
+                    class_count[int(possible_img[n][1])] += 1
                     # print(img_file_name)
                     shutil.copy(
                         f"{parent_path}/image_datasets/{possible_img[n][0]}", f"{TRAIN_DIR}/{img_file_name}")
@@ -112,7 +112,7 @@ def main(test_num, train_num, class_list):
                 if not n in ns:
                     ns.append(n)
                     img_file_name = possible_img[n][0].replace("Train/", "")
-                    class_count[int(possible_img[n][1]) - 1] += 1
+                    class_count[int(possible_img[n][1])] += 1
                     # print(img_file_name)
                     shutil.copy(
                         f"{parent_path}/image_datasets/{possible_img[n][0]}", f"{TRAIN_DIR}/{img_file_name}")

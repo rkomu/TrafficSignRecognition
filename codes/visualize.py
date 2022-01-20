@@ -142,7 +142,7 @@ def vis_confusion_matrix(model, validation_data):
     cm = confusion_matrix(validation_data.classes, predicted_classes)
     cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
 
-    plt.figure(figsize=(12, 9))
+    plt.figure(figsize=(50, 50))
 
     # https://seaborn.pydata.org/generated/seaborn.heatmap.html
     # https://matplotlib.org/users/colormaps.html
