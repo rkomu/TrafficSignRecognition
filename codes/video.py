@@ -75,13 +75,6 @@ def preprocessing(img):
     img_array = np.expand_dims(img_array, axis=0)
     return img_array
 
-    # img = np.asarray(img)
-    # img = cv2.resize(img, (int(IMAGE_SIZE), int(IMAGE_SIZE)))
-    # img = grayscale(img)
-    # img = equalize(img)
-    # img = img / 255
-    # return img
-
 
 def getclassname(classNo):
     classNo = np.asarray(classNo, dtype=str)
