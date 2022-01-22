@@ -55,8 +55,10 @@ OpenCV version4.5.36
 IMAGE_RECONGNITION  
 |── README.md  
 ├── codes                      //ソースコード格納場所  
-│       ├── cnn_model.ipynb    //使用するAIモデル  
+│       ├── cnn_model.ipynb    //使用するAIモデル //ignored
+│       ├── visualize.py       //モデルの可視化　//ignored 
 │       ├── create_datasets.py //使用する画像を決める  
+│       ├── incorrect.txt      //不正解　
 │       └── video.py           //webcamに写っている被写体が何かを判別する  
 ├── image_datasets             //写真データ格納場所  
 │       ├── Meta               //メタデータ  
@@ -65,8 +67,9 @@ IMAGE_RECONGNITION
 │       ├── Test_use           //使用するテストデータ
 │       ├── Test.csv           //Test含まれるデータの画像の情報が書かれている  
 │       ├── Train              //学習用データ
-│       ├── Train_use          //使用する学習用データ    
-│       └── Train.csv          //Trainに含まれるデータのそれぞれの画像の情報が書かれている 
+│       ├── Tra![Picture1](https://user-images.githubusercontent.com/49606231/150628655-8a70c96d-30d5-4195-aa23-e46723a3f741.png)
+in_use          //使用する学習用データ    //ignored
+│       └── Train.csv          //Trainに含まれるデータのそれぞれの画像の情報が書かれている  //ignored
 ├── model                      //写真データ格納場所  
 │       ├── label.txt          //数値のラベルが書かれている
 │       ├── my_model.h5        //学習ずみデータ
@@ -75,3 +78,7 @@ IMAGE_RECONGNITION
 │       └── Test.csv           //Test含まれるデータの画像の情報が書かれている  
 └──keys.json                   //パラメータが書かれている
 ```
+
+
+実行結果
+
