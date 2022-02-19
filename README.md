@@ -67,8 +67,7 @@ IMAGE_RECONGNITION
 │       ├── Test_use           //使用するテストデータ
 │       ├── Test.csv           //Test含まれるデータの画像の情報が書かれている  
 │       ├── Train              //学習用データ
-│       ├── Tra![Picture1](https://user-images.githubusercontent.com/49606231/150628655-8a70c96d-30d5-4195-aa23-e46723a3f741.png)
-in_use          //使用する学習用データ    //ignored
+│       ├── Train_use          //使用する学習用データ    //ignored
 │       └── Train.csv          //Trainに含まれるデータのそれぞれの画像の情報が書かれている  //ignored
 ├── model                      //写真データ格納場所  
 │       ├── label.txt          //数値のラベルが書かれている
