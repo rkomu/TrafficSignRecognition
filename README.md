@@ -55,8 +55,8 @@ OpenCV version4.5.36
 IMAGE_RECONGNITION  
 |── README.md  
 ├── codes                      //ソースコード格納場所  
-│       ├── cnn_model.ipynb    //使用するAIモデル //ignored
-│       ├── visualize.py       //モデルの可視化　//ignored 
+│       ├── cnn_model.ipynb    //使用するAIモデル 
+│       ├── visualize.py       //モデルの可視化 
 │       ├── create_datasets.py //使用する画像を決める  
 │       ├── incorrect.txt      //不正解　
 │       └── video.py           //webcamに写っている被写体が何かを判別する  
