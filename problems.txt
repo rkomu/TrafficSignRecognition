@@ -6,4 +6,6 @@ https://stackoverflow.com/questions/68238057/typeerror-array-takes-1-positional-
 Tensorflow: None of the MLIR optimization passes are enabled (registered 1)
 https://stackoverflow.com/questions/63886762/tensorflow-none-of-the-mlir-optimization-passes-are-enabled-registered-1
 
+keras early stopping
+https://analytics-note.xyz/machine-learning/keras-early-stopping/
 
